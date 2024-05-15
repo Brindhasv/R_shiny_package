@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 25%;
+  }
+  
+  .main-panel {
+    width: 75%;
+  }
+  

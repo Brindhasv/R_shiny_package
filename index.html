@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Data Visualization with R and Shiny</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Interactive Data Visualization with R and Shiny</h1>
+    
+    <div class="sidebar">
+      <input type="file" id="file" accept=".csv">
+    </div>
+    
+    <div class="main-panel">
+      <div id="data_table"></div>
+      <div id="bar_plot"></div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
